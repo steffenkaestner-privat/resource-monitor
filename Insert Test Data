@@ -1,0 +1,24 @@
+Insert into pc(id,name) values ('-1','Test');
+
+Insert into cpu(id,frequency,cores,pc) values ('-1','99.99','99','-1');
+
+Insert into ram(id,maxRam,pc) values ('-1','99.99',-1);
+
+Insert into drive(id,name,driveLetter,type,maxSpace,pc) values ('-1','Test01','T','Test','99.99','-1');
+Insert into drive(id,name,driveLetter,type,maxSpace,pc) values ('-2','Test02','T','Test','66.66','-1');
+
+Insert into workload(id,workload) values ('-1','55.55');
+Insert into workload(id,workload) values ('-2','55.55');
+Insert into workload(id,workload) values ('-3','55.55');
+Insert into workload(id,workload) values ('-4','55.55');
+Insert into workload(id,workload) values ('-5','55.55');
+
+
+insert into workloadCPU(workload,cpu) values ('-1','-1');
+
+Insert into workloadRAM(workload,ram) values ('-2','-1');
+
+Insert into workloadDrive(workload,drive) values ('-3',-1);
+Insert into workloadDrive(workload,drive) values ('-4',-1);
+Insert into workloadDrive(workload,drive) values ('-5',-2);
+
